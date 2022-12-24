@@ -1,0 +1,223 @@
+body {
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e4f5eb;
+  min-width: 820px;
+  padding-top: 20px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.header-nav-logo {
+  margin-left: 35px;
+  color: #242323;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 15px;
+}
+
+.header-nav-element {
+  padding-left: 40px;
+  color: #575859;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+.header-nav-element-home {
+  padding-left: 40px;
+  color: #575859;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+}
+.header-nav-signIn {
+  display: flex;
+  align-items: center;
+  /* margin-right: 70px; */
+}
+.header-signIn {
+  color: #575859;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+.header-nav-button {
+  width: 137px;
+  height: 55px;
+
+  background: #45b871;
+  border-radius: 5px;
+  margin-left: 40px;
+  border: none;
+}
+.header-nav-button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.u::first-letter {
+  color: #45b871;
+}
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e4f5eb;
+  min-width: 820px;
+  padding-bottom: 60px;
+}
+.content-text-button {
+  display: flex;
+  flex-direction: column;
+  padding-left: 135px;
+}
+
+.content-Htext {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 70px;
+
+  color: #242323;
+}
+.content-Ptext {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #6c6c6a;
+}
+.content-2-button {
+  display: flex;
+  align-items: center;
+}
+.content-button {
+  color: #ffffff;
+  background-color: #45b871;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  line-height: 15px;
+  width: 202px;
+  height: 72px;
+}
+
+.content-button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+.content-text-playVideo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+
+  color: #242323;
+}
+
+.play-button-element {
+  width: 110px;
+  padding-top: 10px;
+}
+.content-img-girl-element {
+  width: 850px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 110px;
+  margin-bottom: 110px;
+  margin-left: 255px;
+  margin-right: 255px;
+  background-image: url(/sitePrakt/img/Footer.svg);
+  width: 1425px;
+  height: 452px;
+}
+
+.footer-content-text-element {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer-content-buttons {
+  display: flex;
+  align-items: center;
+}
+.footer-content-buttonFirst-element {
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  padding: 0px 30px 0px 30px;
+}
+.footer-content-buttonFirst-element-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  /* or 75% */
+
+  color: #ffffff;
+}
+.footer-content-buttonSecond-element {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ffffff00;
+  margin-left: 30px;
+}
+.footer-content-buttonSecond-element-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  /* identical to box height, or 75% */
+
+  color: #242323;
+}
